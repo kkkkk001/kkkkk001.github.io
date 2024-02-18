@@ -32,9 +32,10 @@ body {
 }
 
 #layout-content {
-	padding-top: 0.0em;
-	padding-left: 1.0em;
-	padding-right: 1.0em;
+	padding-top: 2.0em;
+	padding-left: 10.0em;
+	padding-right: 10.0em;
+	padding-bottom: 5em;
     border: none;
     background: white;
     text-align: left;
@@ -92,7 +93,7 @@ div.menu-item {
 div#toptitle {
 	padding-bottom: 0.2em;
 	margin-bottom: 1.5em;
-	border-bottom: 3px double gray;
+	/* border-bottom: 3px double gray; */
 }
 
 /* Reduce space if we begin the page with a title. */
@@ -359,6 +360,7 @@ tr.heading {
 
 img {
     border: none;
+	padding-left: 3em;
 }
 
 table.imgtable, table.imgtable td {
